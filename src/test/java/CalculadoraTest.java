@@ -2,8 +2,9 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-import static org.testng.Assert.assertEquals;
-import static org.testng.Assert.assertTrue;
+import java.util.ConcurrentModificationException;
+
+import static org.testng.Assert.*;
 
 public class CalculadoraTest {
 
@@ -18,7 +19,7 @@ public class CalculadoraTest {
     }
 
     @BeforeMethod
-    public void setUp(){
+    public void setUp() {
         System.out.println("setUp all");
         numeroUno = 5;
         numeroDos = 10;
@@ -37,5 +38,10 @@ public class CalculadoraTest {
         assertTrue(numeroUno+5 == numeroDos);
    }
 
+   @Test(expectedExceptions = ConcurrentModificationException.class)
+   public void testDetectarbuclesInfinitos(){
+       System.out.println("\nLa prueba debe tirar la excepcion\n");
+       calculadora.algoritmoOptimo();
+   }
 
 }
