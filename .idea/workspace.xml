@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="884e003a-46fb-47cc-a82d-d912b324c5e6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/MainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RandomThings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RandomThingsTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Calculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Calculadora.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CalculadoraTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CalculadoraTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Calculadora.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Calculadora.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/MainClass.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/MainClass.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/User.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Vehicle.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Vehicle.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/CalculadoraTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CalculadoraTest.class" afterDir="false" />
@@ -25,14 +25,36 @@
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/CalculadoraTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/RandomThings.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/CalculadoraTest.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/RandomThingsTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            <state relative-caret-position="115">
+              <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -44,7 +66,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/MainClass.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="374">
-              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+              <caret line="24" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,8 +121,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TestNG Test Class" />
         <option value="Class" />
+        <option value="Interface" />
+        <option value="TestNG Test Class" />
       </list>
     </option>
   </component>
@@ -117,6 +140,10 @@
         <option value="$PROJECT_DIR$/src/main/java/MainClasss.java" />
         <option value="$PROJECT_DIR$/src/main/java/MainClass.java" />
         <option value="$PROJECT_DIR$/src/test/java/CalculadoraTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/RandomThings.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Java9.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/RandomThingsTest.java" />
       </list>
     </option>
   </component>
@@ -187,7 +214,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550200224972" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550200933696" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG" value="" />
     <property name="extract.method.default.visibility" value="public" />
@@ -215,7 +242,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.CalculadoraTest.testDetectarbuclesInfinitos">
+  <component name="RunManager" selected="TestNG.RandomThingsTest">
     <configuration name="Calculadora" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Calculadora" />
       <module name="PracticeTestNG" />
@@ -252,10 +279,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="RandomThingsTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="PracticeTestNG" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="UserTest" />
+      <option name="MAIN_CLASS_NAME" value="RandomThingsTest" />
       <properties />
       <listeners />
       <method v="2">
@@ -264,11 +291,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.RandomThingsTest" />
         <item itemvalue="TestNG.CalculadoraTest.testDetectarbuclesInfinitos" />
         <item itemvalue="Application.MainClass" />
         <item itemvalue="Application.Calculadora" />
         <item itemvalue="TestNG.CalculadoraTest" />
-        <item itemvalue="TestNG.UserTest" />
       </list>
     </recent_temporary>
   </component>
@@ -283,20 +310,11 @@
       <option name="presentableId" value="Default" />
       <updated>1550156027799</updated>
       <workItem from="1550156042369" duration="8521000" />
-      <workItem from="1550197866013" duration="1953000" />
+      <workItem from="1550197866013" duration="2797000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="CalculadoraTest - 2019.02.14 at 07h 22m 28s.xml">
-      <configuration name="CalculadoraTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="UserTest - 2019.02.14 at 07h 45m 33s.xml">
-      <configuration name="UserTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="CalculadoraTest - 2019.02.14 at 08h 00m 11s.xml">
-      <configuration name="CalculadoraTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="CalculadoraTest - 2019.02.14 at 08h 02m 18s.xml">
       <configuration name="CalculadoraTest" configurationId="TestNG" />
     </history-entry>
@@ -312,9 +330,24 @@
     <history-entry file="CalculadoraTest_testDetectarbuclesInfinitos - 2019.02.14 at 19h 06m 54s.xml">
       <configuration name="CalculadoraTest.testDetectarbuclesInfinitos" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="RandomThingsTest - 2019.02.14 at 19h 19m 47s.xml">
+      <configuration name="RandomThingsTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RandomThingsTest - 2019.02.14 at 19h 20m 20s.xml">
+      <configuration name="RandomThingsTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RandomThingsTest - 2019.02.14 at 19h 20m 25s.xml">
+      <configuration name="RandomThingsTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RandomThingsTest - 2019.02.14 at 19h 21m 36s.xml">
+      <configuration name="RandomThingsTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="RandomThingsTest - 2019.02.14 at 19h 22m 20s.xml">
+      <configuration name="RandomThingsTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10474000" />
+    <option name="totallyTimeSpent" value="11318000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -338,7 +371,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.56301147" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.08674304" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -364,9 +397,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Calculadora.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="357">
@@ -404,7 +434,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/MainClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -413,8 +443,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CalculadoraTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        <state relative-caret-position="34">
+          <caret line="2" column="29" selection-start-line="2" selection-start-column="29" selection-end-line="2" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="29" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Java9.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/RandomThings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="19" lean-forward="true" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/RandomThingsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
