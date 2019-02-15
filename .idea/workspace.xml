@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="884e003a-46fb-47cc-a82d-d912b324c5e6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Calculadora.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Calculadora.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MainClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MainClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/RandomThings.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RandomThings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CalculadoraTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CalculadoraTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RandomThingsTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RandomThingsTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/UserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UserTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Factorial.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -100,7 +95,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Vehicle.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
@@ -113,14 +108,23 @@
           </provider>
         </entry>
       </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Factorial.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
         <option value="TestNG Test Class" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -142,6 +146,7 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/RandomThingsTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/VehicleTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Factorial.java" />
       </list>
     </option>
   </component>
@@ -212,7 +217,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550201071566" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550258305542" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="TestNG" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.TestNG" value="" />
     <property name="extract.method.default.visibility" value="public" />
@@ -308,7 +313,7 @@
       <option name="presentableId" value="Default" />
       <updated>1550156027799</updated>
       <workItem from="1550156042369" duration="8521000" />
-      <workItem from="1550197866013" duration="3249000" />
+      <workItem from="1550197866013" duration="3760000" />
     </task>
     <servers />
   </component>
@@ -345,7 +350,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11770000" />
+    <option name="totallyTimeSpent" value="12281000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -482,6 +487,13 @@
             <element signature="e#317#318#0" expanded="true" />
             <element signature="e#345#346#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Factorial.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="5" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
         </state>
       </provider>
     </entry>
