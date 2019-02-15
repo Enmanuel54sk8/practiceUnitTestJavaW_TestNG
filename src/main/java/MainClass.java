@@ -14,14 +14,14 @@ public class MainClass {
         arrayList.add("Como");
 
 
-            if (!arrayList.isEmpty()) {
-                for (String contenido : arrayList) {
-                    arrayList.add("Estas!!!!");
-                    System.out.println(contenido);
-                }
-            } else{
-                throw new ConcurrentModificationException("Se lleno la memoria pana!");
+        if (!arrayList.isEmpty()) {
+            for (String contenido : arrayList) {
+                arrayList.add("Estas!!!!");
+                System.out.println(contenido);
             }
+        } else {
+            throw new ConcurrentModificationException("Se lleno la memoria pana!");
+        }
 
         return arrayList;
     }
