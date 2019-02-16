@@ -14,7 +14,7 @@ public class Calculadora {
         arrayList.add("Hola");
         arrayList.add("Como");
 
-        if (arrayList.isEmpty()) {
+        if (!arrayList.isEmpty()) {
             for (String contenido : arrayList) {
                 arrayList.add("Estas?");
                 System.out.println(contenido);
